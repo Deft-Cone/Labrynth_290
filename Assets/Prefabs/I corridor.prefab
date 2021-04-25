@@ -89,7 +89,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2970209703519402162}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 1.5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 5118777211875096633}
@@ -108,7 +108,7 @@ Light:
   m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Intensity: 1
-  m_Range: 25
+  m_Range: 10
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
@@ -299,12 +299,17 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 35558fcc2d2331b4caa490d6d046fef5,
         type: 3}
       propertyPath: m_Name
-      value: I_Corridor
+      value: I_Corridor Mesh
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 35558fcc2d2331b4caa490d6d046fef5,
         type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 35558fcc2d2331b4caa490d6d046fef5,
+        type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 35558fcc2d2331b4caa490d6d046fef5, type: 3}
