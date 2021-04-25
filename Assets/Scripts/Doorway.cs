@@ -1,18 +1,12 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class Doorway : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    void OnDrawGizmos()
     {
-        
-    }
+        Ray ray = new Ray (transform.position, transform.rotation * Vector3.forward);
 
-    // Update is called once per frame
-    void Update()
-    {
-        
+        Gizmos.color = Color.red;
+        Gizmos.DrawRay (ray);
     }
 }
