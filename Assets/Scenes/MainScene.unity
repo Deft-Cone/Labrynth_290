@@ -391,6 +391,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 677161616, guid: 3c7e83e631ffc9e4aaad4d356ddae630, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 336853587}
     - target: {fileID: 6964389552768813853, guid: 3c7e83e631ffc9e4aaad4d356ddae630,
         type: 3}
       propertyPath: m_Name
@@ -844,6 +848,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: LevelBuilder
+      objectReference: {fileID: 0}
+    - target: {fileID: 8896407669999610774, guid: b777a5641ed00c5418faabb40a07c53d,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8896407669999610775, guid: b777a5641ed00c5418faabb40a07c53d,
         type: 3}
